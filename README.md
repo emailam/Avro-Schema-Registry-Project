@@ -2,8 +2,8 @@
 
 This project demonstrates a basic microservices architecture using Avro schemas for event serialization and a schema registry for managing Avro schemas. It includes two services:
 
-- **notification-service**: Handles notifications and consumes events.
-- **payment-service**: Handles payment processing and produces events.
+- **notification-service**: consumes events.
+- **payment-service**: produces events.
 
 ## Getting Started
 
@@ -21,4 +21,3 @@ This project demonstrates a basic microservices architecture using Avro schemas 
 ## Requirements
 - Docker & Docker Compose
 - Java 17 or higher
-
