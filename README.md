@@ -8,7 +8,15 @@ This project demonstrates a basic microservices architecture using Avro schemas 
 ## Getting Started
 
 1. Clone the repository.
-2. Use `docker-compose up` to start the services and dependencies.
+2. Use `docker-compose up` to start Kafka + Zookeeper + Schema Registry.
+3. cd payment-service
+mvn clean install
+4. cd ../notification-service
+mvn clean install
+5. cd payment-service
+mvn spring-boot:run
+6. cd notification-service
+mvn spring-boot:run
 
 ## Folder Structure
 - `notification-service/`: Notification microservice (Java, Spring Boot)
